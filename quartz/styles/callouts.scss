@@ -109,8 +109,16 @@
 
   &[data-callout="quote"] {
     --color: var(--secondary);
-    --border: var(--lightgray);
+	--bg: var(--light);
+    --border: var(--gray);
     --callout-icon: var(--callout-icon-quote);
+  }
+  
+  &[data-callout="cite"] {
+    --color: var(--secondary);
+	--bg: var(--light);
+    --border: var(--gray);
+    --callout-icon: var(--callout-icon-abstract);
   }
 
   &.is-collapsed > .callout-title > .fold-callout-icon {
